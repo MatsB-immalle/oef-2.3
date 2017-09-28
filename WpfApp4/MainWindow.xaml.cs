@@ -24,5 +24,10 @@ namespace WpfApp4
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MijnLabel.Content = "Mats bos";
+        }
     }
 }

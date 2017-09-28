@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="372.781" Width="594.379" Background="#FFA6A6A6">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="433*"/>
+            <ColumnDefinition Width="84*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Mats Bos" HorizontalAlignment="Left" Margin="106,73,0,0" VerticalAlignment="Top" Width="90" FontFamily="Times New Roman" Background="Red"/>
+        <Label Content="15" HorizontalAlignment="Left" Margin="106,218,0,0" VerticalAlignment="Top" Width="90" FontFamily="Times New Roman" Background="Red"/>
+        <Button Content="KLIK HIER" HorizontalAlignment="Left" Margin="387,141,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Label x:Name="MijnLabel" Content="" HorizontalAlignment="Left" Margin="106,145,0,0" VerticalAlignment="Top" Width="90"/>
+
+
     </Grid>
 </Window>
